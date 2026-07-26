@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+.venv/
+venv/
+
+# PyTorch checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Dataset
+data/
+datasets/*/videos/
+datasets/*/frames/
+
+# Logs
+logs/
+runs/
+wandb/
+
+# Tensorboard
+events.out.tfevents.*
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
